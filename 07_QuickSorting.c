@@ -20,7 +20,7 @@ void QuickSorting(int *arr, int pivot, int left_idx, int right_idx)
 	int left = left_idx;
 	int right = right_idx;
 
-	while (left < right)
+	while (left <= right)
 	{
 		while (quick[pivot] >= quick[left] && left <= right_idx)
 		{
